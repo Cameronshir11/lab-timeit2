@@ -174,7 +174,7 @@ def binary_search_rec2(xs, y):
     >>> binary_search_rec2(list(range(-1001, 1001, 2)), 9)
     True
     >>> binary_search_rec2(list(range(-1000, 1000, 2)), 9)
-    False
+    False 
     '''
     if len(xs) == 0:
         return False
